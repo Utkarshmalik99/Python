@@ -1,5 +1,5 @@
-a=int(input("enter the lower range: "))
-b=int(input("enter the lower range: "))
+a=int(input("enter the lower range:"))
+b=int(input("enter the lower range:"))
 
 for num in range(a,b+1):
   if num>1:
