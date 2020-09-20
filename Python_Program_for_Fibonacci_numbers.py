@@ -7,8 +7,8 @@ def fib_recursion(n):
 nterms=int(input("enter the number of terms: "))
 
 if nterms<=0:
-  print("please enter a positive integer")
+  print(" please enter a positive integer ")
 else:
-  print("fibonacci sequence")
+  print(" fibonacci sequence ")
   for i in range(nterms):
     print(fib_recursion(i))
