@@ -1,6 +1,6 @@
 n=int(input("enter the n'th natural number:"))
 
-def squaresum(n):
+def squareSum(n):
   sum=0
   for n in range(1,n+1):
     sum+=(n*n)
